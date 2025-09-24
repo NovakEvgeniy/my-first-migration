@@ -54,21 +54,25 @@ COBOL sequentially prints fields and strings. In Java, this is implemented with 
 ## 🚀 How to Run and 💡 Conclusion
 
 
-### --- COBOL ---
+###  COBOL 
 1. Install GnuCOBOL: https://gnucobol.sourceforge.io/
 2. Ensure JSON support was enabled during build (--with-json).
 3. Compile and run:
+   ```bash
    cobc -x json-generate.cbl
    ./json-generate
-
-### --- Java ---
+   ```
+### Java 
 1. Install JDK 17+
 2. Save the file JsonGenerateExample.java under the folder my_first_migration/
 3. Compile:
+   ```bash
    javac my_first_migration/JsonGenerateExample.java
-4. Run:
+   ```
+5. Run:
+   ```bash
    java my_first_migration.JsonGenerateExample
-
+   ```
 ## --- Conclusion ---
 This example clearly illustrates that initial conversion often involves directly
 transferring the algorithm into the target language with maximum preservation
