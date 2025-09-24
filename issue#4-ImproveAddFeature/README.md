@@ -152,4 +152,5 @@ Flexibility: Support for various operation modes via command line arguments
 
 Author
 Novak Evgeniy
+Email: novakevgeniy1953@gmail.com
 September 23, 2025
