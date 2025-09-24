@@ -68,7 +68,7 @@ This document provides a consolidated summary of all stages.
 | Issue 4 | Enterprise     | CSV + JSON + file output   | High-quality       |
 
 Issue 1 is Analysis Document; 
- Issues 2-4 are standalone Java project with its own execution
+ Issues 2-4 are standalone Java projects with its own execution
 ---
 
 **Author:** Evgeniy Novak;
