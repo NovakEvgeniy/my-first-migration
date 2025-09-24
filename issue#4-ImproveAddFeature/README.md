@@ -98,7 +98,7 @@ mvn clean compile
 mvn test
 ```
 ### Usage Scenarios
-1. Run with default values (command line mode)
+#### 1. Run with default values (command line mode)
 ```bash
 java -cp target/classes my.first.migration.Main
 ```
