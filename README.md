@@ -7,7 +7,7 @@ This project demonstrates the **step-by-step migration** of a sample COBOL progr
 - **Final state:** a Java Maven application with support for reading CSV files, flexible output options, and comprehensive testing.  
 
 The project evolves through a sequence of incremental improvements.  
-Each stage is documented as a separate **Issue** with its own README.md.  
+Each stage is documented as a separate **Issue** with its own Main.java and README.md.  
 This document provides a consolidated summary of all stages.
 
 ---
