@@ -110,3 +110,4 @@ All variables are placed in **Working-Storage Section**, since they are internal
 
 📅 **Analysis Date:** 30/08/2025  
 👤 **Analyst:** Evgeniy Novak
+**Email:** novakevgeniy1953@gmail.com
