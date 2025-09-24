@@ -66,6 +66,7 @@ This document provides a consolidated summary of all stages.
 | Issue 2 | Single Java file | Direct migration         | Naive implementation |
 | Issue 3 | Maven project  | JUnit 5, dynamic data      | Production-ready   |
 | Issue 4 | Enterprise     | CSV + JSON + file output   | High-quality       |
+
 Issue 1 is Analysis Document
 Issues 2-4 are standalone project
 ---
