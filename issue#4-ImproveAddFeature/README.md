@@ -99,11 +99,13 @@ mvn test
 ```
 ### Usage Scenarios
 1. Run with default values (command line mode)
-bash
+```bash
 java -cp target/classes my.first.migration.Main
+```
 2. Run with output saved to file
-bash
+```bash
 java -cp target/classes my.first.migration.Main -o output.json
+```
 3. Run with pretty JSON output
 bash
 java -cp target/classes my.first.migration.Main --pretty
