@@ -67,5 +67,6 @@ This document provides a consolidated summary of all stages.
 
 ---
 
-**Author:** Evgeniy Novak  
+**Author:** Evgeniy Novak
+**Email:** novakevgeniy1953@gmail.com
 **Date:** 23.09.2025  
