@@ -77,6 +77,6 @@ This example clearly illustrates that initial conversion often involves directly
 Such an approach quickly produces a working prototype, which should later be refactored and improved to align with the idioms and best practices of the target language (Java).
 
 ## Metadata
-Author: Evgeniy Novak
-Email: novakevgeniy1953@gmail.com
-Date: 03.09.2025
+- **Author**: Evgeniy Novak
+- **Email**: novakevgeniy1953@gmail.com
+- **Date**: 03.09.2025
