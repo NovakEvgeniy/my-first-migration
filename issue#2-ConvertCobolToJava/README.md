@@ -64,13 +64,11 @@ COBOL sequentially prints fields and strings. In Java, this is implemented with 
 Save the file JsonGenerateExample.java under the folder my_first_migration/
 
 -Compile:
-
-bash
+```bash
 javac my_first_migration/JsonGenerateExample.java
 
 -Run:
-
-bash
+```bash
 java my_first_migration.JsonGenerateExample
 
 ##💡 Conclusion
