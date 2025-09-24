@@ -139,3 +139,7 @@ Thus, the *Improve Code Quality and Refactor for Dynamic Data* task has been suc
 
 ```
 ```
+## Metadata
+- **Author**: Evgeniy Novak
+- **Email**: novakevgeniy1953@gmail.com
+- **Date**: 03.09.2025
