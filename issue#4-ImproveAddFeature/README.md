@@ -102,31 +102,38 @@ mvn test
 ```bash
 java -cp target/classes my.first.migration.Main
 ```
-2. Run with output saved to file
+#### 2. Run with output saved to file
 ```bash
 java -cp target/classes my.first.migration.Main -o output.json
 ```
-3. Run with pretty JSON output
-bash
+#### 3. Run with pretty JSON output
+```bash
 java -cp target/classes my.first.migration.Main --pretty
-4. Run with data reading from file
-bash
+```
+#### 4. Run with data reading from file
+```bash
 java -cp target/classes my.first.migration.Main --file data.txt
-5. Combined run: read from file with pretty output and save to file
-bash
+```
+#### 5. Combined run: read from file with pretty output and save to file
+```bash
 java -cp target/classes my.first.migration.Main --file data.txt --pretty -o output.json
-Input File Format
+```
+## Input File Format
 Data file should be in CSV format:
-
+```bash
 text
 name,value,enabled,description
 John,Doe,true,User John
 Jane,Smith,false,User Jane
-Output Data Examples
+```
+## Output Data Examples
 Standard JSON output:
+```bash
 json
 {"name":"Test Name","value":"Test Value","enabled":true,"description":"Default Description","timestamp":"2023-10-01 12:00:00"}
-Pretty JSON output (with --pretty):
+```
+## Pretty JSON output (with --pretty):
+```bash
 json
 {
   "name": "Test Name",
@@ -135,12 +142,15 @@ json
   "description": "Default Description",
   "timestamp": "2023-10-01 12:00:00"
 }
-JSON array for multiple records:
+```
+## JSON array for multiple records:
+```bash
 json
 [
   {"name":"John","value":"Doe","enabled":true,"description":"User John","timestamp":"2023-10-01 12:00:00"},
   {"name":"Jane","value":"Smith","enabled":false,"description":"User Jane","timestamp":"2023-10-01 12:00:00"}
 ]
+```
 **Implementation Features**
 -Encapsulation: All WsRecord class fields are protected, accessed via getters/setters
 -Type Safety: Using boolean instead of String for flags
