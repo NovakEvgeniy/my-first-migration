@@ -26,7 +26,7 @@ This document provides a consolidated summary of all stages.
 ### Summary
 - A **literal translation** of COBOL algorithms and structures into a Java application (`my_first_migration`).  
 - Purpose: demonstrate direct equivalence without optimization or architectural improvements.
-
+- This Issue is a standalone Java project.
 ---
 
 ## Issue 3: Code Quality Improvements and Refactoring for Dynamic Data
@@ -37,6 +37,7 @@ This document provides a consolidated summary of all stages.
 - Performed refactoring: `WsRecord` extracted into a standalone structure, with clearer method names.  
 - Enhanced error handling and input validation.  
 - Main class renamed from `JsonGenerateExample` to `Main`.
+- This Issue is a standalone Java Maven project.
 
 **Outcome:** The project became structured, extensible, and testable.
 
@@ -52,7 +53,8 @@ This document provides a consolidated summary of all stages.
 - **File output** → `-o` option for saving results.  
 - **Extended data fields** → timestamp, description.  
 - **Pretty JSON** → human-readable formatting.  
-- **Encapsulation** → private fields with getters/setters.  
+- **Encapsulation** → private fields with getters/setters.
+- This Issue is a standalone Java Maven project.   
 
 ---
 
@@ -64,7 +66,8 @@ This document provides a consolidated summary of all stages.
 | Issue 2 | Single Java file | Direct migration         | Naive implementation |
 | Issue 3 | Maven project  | JUnit 5, dynamic data      | Production-ready   |
 | Issue 4 | Enterprise     | CSV + JSON + file output   | High-quality       |
-
+Issue 1 is Analysis Document
+Issues 2-4 are standalone project
 ---
 
 **Author:** Evgeniy Novak
