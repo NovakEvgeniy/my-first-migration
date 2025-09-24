@@ -92,10 +92,12 @@ The project was modernized as part of **Issue 4: Improve Code Quality and Add Fe
 ### Build Project
 ```bash
 mvn clean compile
-Run Tests
-bash
+```
+### Run Tests
+```bash
 mvn test
-Usage Scenarios
+```
+### Usage Scenarios
 1. Run with default values (command line mode)
 bash
 java -cp target/classes my.first.migration.Main
@@ -150,7 +152,7 @@ Testing: Complete unit test coverage
 
 Flexibility: Support for various operation modes via command line arguments
 
-Author
+Metadata
 Novak Evgeniy
 Email: novakevgeniy1953@gmail.com
 September 23, 2025
