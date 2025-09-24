@@ -51,7 +51,7 @@ COBOL sequentially prints fields and strings. In Java, this is implemented with 
 - Exception handling (`on exception`) is simplified to a try/catch block with program termination
 - The code is a demonstration of conversion and is not intended for production use
 
-## 🚀 How to Run and 💡 Conclusion
+## 🚀 How to Run
 
 
 ###  COBOL 
@@ -73,7 +73,7 @@ COBOL sequentially prints fields and strings. In Java, this is implemented with 
    ```bash
    java my_first_migration.JsonGenerateExample
    ```
-## --- Conclusion ---
+## 💡 Conclusion
 This example clearly illustrates that initial conversion often involves directly
 transferring the algorithm into the target language with maximum preservation
 of the original structure. Such an approach quickly produces a working prototype,
