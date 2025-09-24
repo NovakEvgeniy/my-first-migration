@@ -121,7 +121,6 @@ java -cp target/classes my.first.migration.Main --file data.txt --pretty -o outp
 ## Input File Format
 Data file should be in CSV format:
 ```bash
-text
 name,value,enabled,description
 John,Doe,true,User John
 Jane,Smith,false,User Jane
@@ -151,13 +150,13 @@ json
   {"name":"Jane","value":"Smith","enabled":false,"description":"User Jane","timestamp":"2023-10-01 12:00:00"}
 ]
 ```
-**Implementation Features**
--Encapsulation: All WsRecord class fields are protected, accessed via getters/setters
--Type Safety: Using boolean instead of String for flags
--Constants: No magic numbers, all values extracted to constants
--Error Handling: Comprehensive exception handling
--Testing: Complete unit test coverage
--Flexibility: Support for various operation modes via command line arguments
+## Implementation Features
+-**Encapsulation**: All WsRecord class fields are protected, accessed via getters/setters
+-**Type Safety**: Using boolean instead of String for flags
+-**Constants**: No magic numbers, all values extracted to constants
+-**Error Handling**: Comprehensive exception handling
+-**Testing**: Complete unit test coverage
+-**Flexibility**: Support for various operation modes via command line arguments
 
 ## Metadata
 - **Author**: Evgeniy Novak
