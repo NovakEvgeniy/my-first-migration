@@ -51,29 +51,30 @@ COBOL sequentially prints fields and strings. In Java, this is implemented with 
 - Exception handling (`on exception`) is simplified to a try/catch block with program termination
 - The code is a demonstration of conversion and is not intended for production use
 
-## 🚀 How to Run
+## 🚀 How to Run and 💡 Conclusion
 
-### COBOL
-1. Install [GnuCOBOL](https://gnucobol.sourceforge.io/)
-2. Ensure JSON support was enabled during build (`--with-json`)
+
+### --- COBOL ---
+1. Install GnuCOBOL: https://gnucobol.sourceforge.io/
+2. Ensure JSON support was enabled during build (--with-json).
 3. Compile and run:
-   ```bash
    cobc -x json-generate.cbl
    ./json-generate
-### Java
-Save the file JsonGenerateExample.java under the folder my_first_migration/
 
--Compile:
-```bash
-javac my_first_migration/JsonGenerateExample.java
+### --- Java ---
+1. Install JDK 17+
+2. Save the file JsonGenerateExample.java under the folder my_first_migration/
+3. Compile:
+   javac my_first_migration/JsonGenerateExample.java
+4. Run:
+   java my_first_migration.JsonGenerateExample
 
--Run:
-```bash
-java my_first_migration.JsonGenerateExample
-
-##💡 Conclusion
-This example clearly illustrates that initial conversion often involves directly transferring the algorithm into the target language with maximum preservation of the original structure.
-Such an approach quickly produces a working prototype, which should later be refactored and improved to align with the idioms and best practices of the target language (Java).
+## --- Conclusion ---
+This example clearly illustrates that initial conversion often involves directly
+transferring the algorithm into the target language with maximum preservation
+of the original structure. Such an approach quickly produces a working prototype,
+which should later be refactored and improved to align with the idioms and best
+practices of the target language (Java).
 
 ## Metadata
 - **Author**: Evgeniy Novak
