@@ -1,0 +1,4 @@
+Issue#3
+При переносе на С в workspace-eclipse
+1. обрезать папку до my-first-eclipse
+2. Сделать обновление Maven Update Project
