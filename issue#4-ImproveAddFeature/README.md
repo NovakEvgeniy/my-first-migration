@@ -141,20 +141,15 @@ json
   {"name":"John","value":"Doe","enabled":true,"description":"User John","timestamp":"2023-10-01 12:00:00"},
   {"name":"Jane","value":"Smith","enabled":false,"description":"User Jane","timestamp":"2023-10-01 12:00:00"}
 ]
-Implementation Features
-Encapsulation: All WsRecord class fields are protected, accessed via getters/setters
+## Implementation Features
+-Encapsulation: All WsRecord class fields are protected, accessed via getters/setters
+-Type Safety: Using boolean instead of String for flags
+-Constants: No magic numbers, all values extracted to constants
+-Error Handling: Comprehensive exception handling
+-Testing: Complete unit test coverage
+-Flexibility: Support for various operation modes via command line arguments
 
-Type Safety: Using boolean instead of String for flags
-
-Constants: No magic numbers, all values extracted to constants
-
-Error Handling: Comprehensive exception handling
-
-Testing: Complete unit test coverage
-
-Flexibility: Support for various operation modes via command line arguments
-
-Metadata
-Novak Evgeniy
-Email: novakevgeniy1953@gmail.com
-September 23, 2025
+## Metadata
+- **Author**: Evgeniy Novak
+- **Email**: novakevgeniy1953@gmail.com
+- **Date**: 23.09.2025
