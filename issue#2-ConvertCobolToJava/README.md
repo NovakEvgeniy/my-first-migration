@@ -60,7 +60,7 @@ COBOL sequentially prints fields and strings. In Java, this is implemented with 
    ```bash
    cobc -x json-generate.cbl
    ./json-generate
-Java
+### Java
 Save the file JsonGenerateExample.java under the folder my_first_migration/
 
 Compile:
@@ -71,11 +71,12 @@ Run:
 
 bash
 java my_first_migration.JsonGenerateExample
-💡 Conclusion
-This example clearly illustrates that initial conversion often involves directly transferring the algorithm into the target language with maximum preservation of the original structure.
 
+##💡 Conclusion
+This example clearly illustrates that initial conversion often involves directly transferring the algorithm into the target language with maximum preservation of the original structure.
 Such an approach quickly produces a working prototype, which should later be refactored and improved to align with the idioms and best practices of the target language (Java).
 
+## Metadata
 Author: Evgeniy Novak
 Email: novakevgeniy1953@gmail.com
 Date: 03.09.2025
