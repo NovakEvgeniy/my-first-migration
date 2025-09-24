@@ -141,7 +141,7 @@ json
   {"name":"John","value":"Doe","enabled":true,"description":"User John","timestamp":"2023-10-01 12:00:00"},
   {"name":"Jane","value":"Smith","enabled":false,"description":"User Jane","timestamp":"2023-10-01 12:00:00"}
 ]
-## Implementation Features
+**Implementation Features**
 -Encapsulation: All WsRecord class fields are protected, accessed via getters/setters
 -Type Safety: Using boolean instead of String for flags
 -Constants: No magic numbers, all values extracted to constants
