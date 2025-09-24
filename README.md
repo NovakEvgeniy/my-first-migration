@@ -67,10 +67,10 @@ This document provides a consolidated summary of all stages.
 | Issue 3 | Maven project  | JUnit 5, dynamic data      | Production-ready   |
 | Issue 4 | Enterprise     | CSV + JSON + file output   | High-quality       |
 
-Issue 1 is Analysis Document
-Issues 2-4 are standalone project
+Issue 1 is Analysis Document; 
+ Issues 2-4 are standalone project
 ---
 
-**Author:** Evgeniy Novak
-**Email:** novakevgeniy1953@gmail.com
-**Date:** 23.09.2025  
+**Author:** Evgeniy Novak;
+ **Email:** novakevgeniy1953@gmail.com;
+ **Date:** 23.09.2025  
