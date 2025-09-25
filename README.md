@@ -68,7 +68,7 @@ This document provides a consolidated summary of all stages.
 
 ## Notes
 - **Issue 1** is an analysis document.  
-- **Issues 2–4** are standalone Java projects with their own execution.  
+- **Issues 2–4** are standalone Java projects with their own execution. After running each Issue, the console displays the same basic message as defined in the original COBOL source code. This confirms the migration of the same core functionality across projects of varying complexity.
 
 ---
 
